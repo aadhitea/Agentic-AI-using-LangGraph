@@ -12,7 +12,7 @@ import operator #
 from pydantic import BaseModel, Field
 # Field lets you add extra rules and metadata to individual fields.---> in simple terms, these are contraints
 # BaseModel lets you define what fields an object should contain and what types those fields should have.
-# Pyda
+
 
 provide class : input data, datatypes, to be calculated data, datatypes
 define graph : add graph, nodes, edges, compile, display from image
