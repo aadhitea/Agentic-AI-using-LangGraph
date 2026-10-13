@@ -1,0 +1,6 @@
+import dependencies
+provide class : input data, datatypes, to be calculated data, datatypes
+define graph : add graph, nodes, edges, compile, display from image
+
+define functions : defining graph will help in defining functions which has to be added in nodes/edges
+call workflow and invoke the model after giving input data
