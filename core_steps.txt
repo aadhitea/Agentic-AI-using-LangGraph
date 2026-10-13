@@ -1,4 +1,19 @@
 import dependencies
+#  import dependencies
+
+from langgraph.graph import StateGraph , START, END
+from typing import TypedDict, Annotated, Literal
+from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
+from dotenv import load_dotenv
+import os
+from langgraph.checkpoint.memory import MemorySaver
+import operator # 
+from pydantic import BaseModel, Field
+# Field lets you add extra rules and metadata to individual fields.---> in simple terms, these are contraints
+# BaseModel lets you define what fields an object should contain and what types those fields should have.
+
+
 provide class : input data, datatypes, to be calculated data, datatypes
 define graph : add graph, nodes, edges, compile, display from image
 
